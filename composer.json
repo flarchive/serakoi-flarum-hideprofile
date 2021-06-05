@@ -1,0 +1,37 @@
+{
+  "name": "serakoi/flarum-hideprofile",
+  "description": "Simply hide user data from users!",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "authors": [
+    {
+      "name": "Serakoi",
+      "email": "admin@seer-software.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Serakoi\\HideProfile\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Hide Profile",
+      "icon": {
+        "name": "fas fa-eye-slash",
+        "backgroundColor": "#FFA500",
+        "color": "#FFFFFF"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
